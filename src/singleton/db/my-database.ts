@@ -4,7 +4,6 @@ export class MyDatabase {
   private static _instance: MyDatabase | null = null
   private users: User[] = []
 
-  // eslint-disable-next-line @typescript-eslint/no-empty-function
   private constructor() {}
 
   static get instance(): MyDatabase {
